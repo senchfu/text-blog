@@ -4,10 +4,10 @@
   padding: 0 map-get($spacers, 5);
   margin: 0 auto;
   @include media-breakpoint-down(lg) {
-    padding: 0 map-get($spacers, 4);
+    padding: 0 map-get($spacers, 8);  //initial is 4
   }
   @include media-breakpoint-down(md) {
-    padding: 0 map-get($spacers, 3);
+    padding: 0 map-get($spacers, 6);  //initial is 3
   }
 }
 
